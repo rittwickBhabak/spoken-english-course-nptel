@@ -7,303 +7,164 @@ django.setup()
 from myapp.models import Lesson 
 
 lessons = {
-    "Introduction to C++, Installing VS Code, g++ & more": {
+    "Introduction": {
         "index": 1,
-        "vid": "j8nAHeVKL08"
+        "vid": "0AM35Nu5McY"
     },
-    "Basic Structure of a C++ Program": {
+    "Student Presentations I": {
         "index": 2,
-        "vid": "oW2r0r_i5Ps"
+        "vid": "jTtm1tgK3Vg"
     },
-    "Variables & Comments in C++ in Hindi": {
+    "Feedback on Presentations I": {
         "index": 3,
-        "vid": "jigb6W35zHc"
+        "vid": "osbozn9iV3g"
     },
-    "Variable Scope & Data Types in C++ in Hindi": {
+    "Stage Manners": {
         "index": 4,
-        "vid": "JrnQ-915czY"
+        "vid": "Cj2M-T5HTsE"
     },
-    "C++ Basic Input/Output & More": {
+    "Tempo of Speech": {
         "index": 5,
-        "vid": "J05uoTbGOvQ"
+        "vid": "czYtzi833js"
     },
-    "C++ Header files & Operators": {
+    "Some Reasons for Mishearing": {
         "index": 6,
-        "vid": "7D5A5ZMKRWw"
+        "vid": "6NKAmR6TmuA"
     },
-    "C++ Reference Variables & Typecasting": {
+    "Topics for Presentations II": {
         "index": 7,
-        "vid": "a7Wim2t053E"
+        "vid": "PvZBWHpYCEg"
     },
-    "Constants, Manipulators & Operator Precedence": {
+    "Message": {
         "index": 8,
-        "vid": "i3a-G6Ebh9E"
+        "vid": "ieEaXXy8R5A"
     },
-    "C++ Control Structures, If Else and Switch-Case Statement": {
+    "Tables, Charts, Graphs": {
         "index": 9,
-        "vid": "AY96XFqb934"
+        "vid": "xVWKPSIBDIQ"
     },
-    "For, While and do-while loops in C++": {
+    "Power Point Slides": {
         "index": 10,
-        "vid": "a7dfSBrTZtE"
+        "vid": "1GZ3OeOcaVA"
     },
-    "Break and Continue Statements in C++": {
+    "Criteria for Evaluation": {
         "index": 11,
-        "vid": "DJh5NfK7h-U"
+        "vid": "iQcxtBnT34A"
     },
-    "Pointers in C++": {
+    "Student Presentations II": {
         "index": 12,
-        "vid": "EvYmTCx9BFs"
+        "vid": "OO1tWM23xZ8"
     },
-    "Arrays & Pointers Arithmetic in C++": {
+    "Feedback on Presentation II": {
         "index": 13,
-        "vid": "ePJxpxsnkGw"
+        "vid": "KLhNMF1-yLc"
     },
-    "Structures, Unions & Enums in C++": {
+    "Topics for Presentation III": {
         "index": 14,
-        "vid": "jCfR7CFlzts"
+        "vid": "z-ueNH7RFfM"
     },
-    "Functions & Function Prototypes in C++": {
+    "Mod-01 Lec-15 On \"Saying 'Please!' \"": {
         "index": 15,
-        "vid": "RFLFX1boGwo"
+        "vid": "Za1ZFQq8Lag"
     },
-    "Call by Value & Call by Reference in C++": {
+    "English Rhythm I": {
         "index": 16,
-        "vid": "oQbyN-vDghA"
+        "vid": "Ce0eHcyST3k"
     },
-    "Inline Functions, Default Arguments & Constant Arguments in C++": {
+    "English Rhythm II": {
         "index": 17,
-        "vid": "oVvvwEx-gBw"
+        "vid": "qa_wmCE_gYc"
     },
-    "Recursions & Recursive Functions in C++": {
+    "Mod-01 Lec-18 Phrasal Pause in English I": {
         "index": 18,
-        "vid": "JRKs3s15Kjc"
+        "vid": "0esjrK4qbT4"
     },
-    "Function Overloading with Examples in C++": {
+    "Phrasal Pause in English II": {
         "index": 19,
-        "vid": "8qZb09suSHY"
+        "vid": "ZR7mJyZVIVU"
     },
-    "Object Oriented Programming in C++": {
+    "Units of Time, Weight, Distance": {
         "index": 20,
-        "vid": "nGJTWaaFdjc"
+        "vid": "QKMim7dEECQ"
     },
-    "Classes, Public and Private access modifiers in C++": {
+    "Stress in English I": {
         "index": 21,
-        "vid": "tL8vnfFFzVQ"
+        "vid": "_KHtfvob4j4"
     },
-    "OOPs Recap & Nesting of Member Functions in C++": {
+    "Stress in English II": {
         "index": 22,
-        "vid": "d363dW0AeS8"
+        "vid": "rEzux4C-hX8"
     },
-    "C++ Objects Memory Allocation & using Arrays in Classes": {
+    "Stress in English III": {
         "index": 23,
-        "vid": "qq05D2yFIHA"
+        "vid": "rtAOMpCPpi0"
     },
-    "Static Data Members & Methods in C++ OOPS": {
+    "Stress in English IV": {
         "index": 24,
-        "vid": "QcLI2zGVYFo"
+        "vid": "DfPbxuDBhXg"
     },
-    "Array of Objects & Passing Objects as Function Arguments in C++": {
+    "Mod-01 Lec-25 Stress in English V": {
         "index": 25,
-        "vid": "aKnc1A5NOKo"
+        "vid": "81L2IialxHo"
     },
-    "Friend Functions in C++": {
+    "Mod-01 Lec-26 Stress in English VI": {
         "index": 26,
-        "vid": "HK6gnkQIgqI"
+        "vid": "lgBau4CxA0Y"
     },
-    "Friend Classes & Member Friend Functions in C++": {
+    "Mod-01 Lec-27 Student Presentations III": {
         "index": 27,
-        "vid": "Tk-4KUoatg8"
+        "vid": "dMQTLsq_wrk"
     },
-    "More on C++ Friend Functions (Examples & Explanation)": {
+    "Mod-01 Lec-28 Student Presentations III": {
         "index": 28,
-        "vid": "GTJTsMR_fro"
+        "vid": "J1F5-Taa-Gw"
     },
-    "Constructors In C++": {
+    "Mod-01 Lec-29 Student Presentations III": {
         "index": 29,
-        "vid": "EEJUPXFKe8Q"
+        "vid": "oALZfbtz980"
     },
-    "Parameterized and Default Constructors In C++": {
+    "Mod-01 Lec-30 Student Presentations III": {
         "index": 30,
-        "vid": "CYXIlh5DURI"
+        "vid": "hwXku1CjVdQ"
     },
-    "Constructor Overloading In C++": {
+    "Mod-01 Lec-31 Some Different Sounds": {
         "index": 31,
-        "vid": "7BmtA-7r1Fg"
+        "vid": "sJgEn9om8dM"
     },
-    "Constructors With Default Arguments In C++": {
+    "Mod-01 Lec-32 Some \"Difficult\" Sounds in English": {
         "index": 32,
-        "vid": "Ok-5YqcGl6c"
+        "vid": "6XUSa5HWDmo"
     },
-    "Dynamic Initialization of Objects Using Constructors": {
+    "Mod-01 Lec-34 Some \"Consonants\" in English": {
         "index": 33,
-        "vid": "c_9oCs-9fvg"
+        "vid": "XspcekJ9GaQ"
     },
-    "Copy Constructor in C++": {
+    "Mod-01 Lec-35 Student Presentations IV": {
         "index": 34,
-        "vid": "jhZjyaNO4Wo"
+        "vid": "NCTqriJNAe8"
     },
-    "Destructor in C++ in Hindi": {
+    "Mod-01 Lec-36 Student Presentation IV": {
         "index": 35,
-        "vid": "rm4tGxWBkqs"
+        "vid": "N-JVzsXUtZ8"
     },
-    "Inheritance & Its Different Types with Examples in C++": {
+    "Mod-01 Lec-37 Feedback on Student Presentation IV": {
         "index": 36,
-        "vid": "RO1ZYW9NAzg"
+        "vid": "Pn277N5gxCI"
     },
-    "Inheritance Syntax & Visibility Mode in C++": {
+    "Mod-01 Lec-38 Final Tips": {
         "index": 37,
-        "vid": "Dmrc82dL7E8"
+        "vid": "ntSNdQtBZh4"
     },
-    "Single Inheritance Deep Dive: Examples + Code": {
+    "Aiming For Excellence: Developing Potential And Self-Actualisation": {
         "index": 38,
-        "vid": "S1BR0xDdsyM"
+        "vid": "W7QgPtO7NRE"
     },
-    "Protected Access Modifier in C++": {
+    "Human Perceptions: Understanding People": {
         "index": 39,
-        "vid": "uHkIhwUspdI"
-    },
-    "Multilevel Inheritance Deep Dive with Code Example in C++": {
-        "index": 40,
-        "vid": "BLb6-ZgxqHg"
-    },
-    "Multiple Inheritance Deep Dive with Code Example in C++": {
-        "index": 41,
-        "vid": "h3INeRqf2vU"
-    },
-    "Exercise on C++ Inheritance": {
-        "index": 42,
-        "vid": "SW36UpSdmsM"
-    },
-    "Ambiguity Resolution in Inheritance in C++": {
-        "index": 43,
-        "vid": "ZqfArYoV9Lg"
-    },
-    "Virtual Base Class in C++": {
-        "index": 44,
-        "vid": "kzMQpPX7TUY"
-    },
-    "Code Example Demonstrating Virtual Base Class in C++": {
-        "index": 45,
-        "vid": "eYV-TohBaa0"
-    },
-    "Constructors in Derived Class in C++": {
-        "index": 46,
-        "vid": "gvOO4H7j_qI"
-    },
-    "Solution to Exercise on Cpp Inheritance": {
-        "index": 47,
-        "vid": "eGhDSjWGXQc"
-    },
-    "Code Example: Constructors in Derived Class in Cpp": {
-        "index": 48,
-        "vid": "qHrnTf5DOeI"
-    },
-    "Initialization list in Constructors in Cpp": {
-        "index": 49,
-        "vid": "-Re7K7mHtv4"
-    },
-    "Revisiting Pointers: new and delete Keywords in CPP": {
-        "index": 50,
-        "vid": "2Y0b9nFA9s8"
-    },
-    "Pointers to Objects and Arrow Operator in CPP": {
-        "index": 51,
-        "vid": "ANpUQgyRPKk"
-    },
-    "Array of Objects Using Pointers in C++": {
-        "index": 52,
-        "vid": "OCmCyYxSi2I"
-    },
-    "this Pointer in C++": {
-        "index": 53,
-        "vid": "cEOfK_L4gGA"
-    },
-    "Polymorphism in C++": {
-        "index": 54,
-        "vid": "B-WWdC-H0zw"
-    },
-    "Pointers to Derived Classes in C++": {
-        "index": 55,
-        "vid": "0YQ_yhX46uk"
-    },
-    "Virtual Functions in C++": {
-        "index": 56,
-        "vid": "fB3JHNnlRfI"
-    },
-    "Virtual Functions Example + Creation Rules in C++": {
-        "index": 57,
-        "vid": "-noYyWtdXSI"
-    },
-    "Abstract Base Class & Pure Virtual Functions in C++": {
-        "index": 58,
-        "vid": "RBAWWutf0fY"
-    },
-    "File I/O in C++: Working with Files": {
-        "index": 59,
-        "vid": "Ma0P9T4nTDA"
-    },
-    "File I/O in C++: Reading and Writing Files": {
-        "index": 60,
-        "vid": "LS1zjr1wog4"
-    },
-    "File I/O in C++: Read/Write in the  Same Program & Closing Files": {
-        "index": 61,
-        "vid": "7ku2AQsWwZE"
-    },
-    "File I/O in C++: open() and eof() functions": {
-        "index": 62,
-        "vid": "U_w-RfMrX18"
-    },
-    "C++ Templates: Must for Competitive Programming": {
-        "index": 63,
-        "vid": "kKJeekDKU30"
-    },
-    "Writing our First C++ Template in VS Code": {
-        "index": 64,
-        "vid": "SuiGXMqGKak"
-    },
-    "C++ Templates: Templates with Multiple Parameters": {
-        "index": 65,
-        "vid": "8SQL9-cQmsw"
-    },
-    "C++ Templates: Class Templates with Default Parameters": {
-        "index": 66,
-        "vid": "IdY8t0n8VBs"
-    },
-    "C++ Function Templates & Function Templates with Parameters": {
-        "index": 67,
-        "vid": "YTS0ShpFsrM"
-    },
-    "Member Function Templates & Overloading Template Functions in C++": {
-        "index": 68,
-        "vid": "Y_RMNcXAM1U"
-    },
-    "The C++ Standard Template Library (STL)": {
-        "index": 69,
-        "vid": "c9iREsYpayk"
-    },
-    "Containers in C++ STL": {
-        "index": 70,
-        "vid": "m0gnToak2-g"
-    },
-    "Vector In C++ STL": {
-        "index": 71,
-        "vid": "wKDvMcJiEPM"
-    },
-    "List In C++ STL": {
-        "index": 72,
-        "vid": "OI4CXwpMBhE"
-    },
-    "Map In C++ STL": {
-        "index": 73,
-        "vid": "KwS-Vbsha1k"
-    },
-    "Function Objects (Functors) In C++ STL": {
-        "index": 74,
-        "vid": "g4AQiptpcI8"
+        "vid": "z6uFihRyvW4"
     }
 }
+
 def populate():
 
     for title, value in lessons.items():
