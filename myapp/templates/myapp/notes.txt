@@ -1,0 +1,6 @@
+There are 2 types of header files:
+
+1. System header files: It comes with the compiler
+
+2. User defined header files: It is written by programmer. e.g. #include "rittwick.h", 
+this will produce an error is rittwick.h is not present in the current directory.
